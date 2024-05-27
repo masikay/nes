@@ -1,0 +1,34 @@
+Modules list:
+-------------
+movingtank.o:
+    CODE              Offs=000000  Size=000578  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=00000B  Align=00001  Fill=0000
+    HEADER            Offs=000000  Size=000010  Align=00001  Fill=0000
+    CHARS             Offs=000000  Size=002000  Align=00001  Fill=0000
+    VECTORS           Offs=000000  Size=000006  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+CHARS                 000000  001FFF  002000  00001
+ZEROPAGE              000000  00000A  00000B  00001
+HEADER                007FF0  007FFF  000010  00001
+CODE                  008000  008577  000578  00001
+VECTORS               00FFFA  00FFFF  000006  00001
+
+
+Exports list by name:
+---------------------
+
+
+
+Exports list by value:
+----------------------
+
+
+
+Imports list:
+-------------
+
